@@ -12,7 +12,7 @@ class ConfigurationException(Exception):
 
 
 @six.add_metaclass(abc.ABCMeta)
-class Compartment(Block):
+class Action(Block):
     """
     """
 
